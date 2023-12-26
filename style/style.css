@@ -48,11 +48,47 @@ body {
 }
 
 #tag {
-    padding: 8px;
+    margin-top: 18px;
+    padding: 8px 12px;
     border-radius: 5px;
     background-color: var(--yellow);
     font-weight: 800;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+}
+
+#date {
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+#container h1 {
+    margin: 18px 0px;
+    font-size: 1.4rem;
+}
+
+#post {
+    margin-bottom: 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+    line-height: 1.5rem;
+}
+
+#author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#author img {
+    width: 30px;
+    font-weight: 800;
+}
+
+#author p {
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 0.8rem;
 }
 
 footer {
@@ -66,4 +102,20 @@ footer a {
     font-size: 0.7rem;
     color: var(--black);
 }
+
+/* responsive design */
+
+@media screen and (max-width: 375px) {
+    #container { 
+        width: 320px; 
+        height: 480px;
+    }
+    #tag { margin-top: 16px; }
+    #date { margin-top: 13px; }
+    #h1 { margin: 16px 0px; font-size: 1.2rem; }
+    #post { margin-bottom: 16px; font-size: 0.9rem; }
+    #container img { width: 280px; }
+    #author img { width: 30px; }
+}
+
 
