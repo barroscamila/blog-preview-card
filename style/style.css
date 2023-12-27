@@ -66,6 +66,11 @@ body {
     font-size: 1.4rem;
 }
 
+#container h1:hover {
+    cursor: pointer;
+    color: var(--yellow);
+}
+
 #post {
     margin-bottom: 18px;
     font-size: 1rem;
